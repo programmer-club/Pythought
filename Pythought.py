@@ -15,7 +15,7 @@ def value(values):
     if random == 2:
         value = strings[random.randint(1, len(strings))]
     if random == 3:
-        value = nums[random.randint(1, len(nums))]
+        value = ints[random.randint(1, len(ints))]
     if random == 4:
         value = bools[random.randint(1, len(bools))]
     if random == 5:
@@ -26,8 +26,8 @@ def value(values):
         value = funcs[random.randint(1, len(funcs))]
 pipon = validate("Would you like to import a pip module? y/n/Y/N", ("y", "n", "Y", "N"), "Please use a valid input.")
 varse[""]
-strings[""]
-nums[""]
+strings["str()"]
+ints[""]
 bools["True", "False", "None"]
 simpbools["True", "False"]
 origfuncs[""]
